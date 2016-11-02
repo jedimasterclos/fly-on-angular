@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <title>Airplanes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+    <script src="app/app.js"></script>
+  </head>
+  <body ng-app="AirplaneApp">
+  <a class="btn btn-primary pull-left" ng-href="/">Home</a>
+  <a class="btn btn-warning pull-left" ng-href="/api/airplanes">All planes</a>
+    <div class="container">
+      <h2 class="text-center">Airplanes!!<h2>
+      <div ui-view></div>
+    </div>
+  </body>
+</html>
